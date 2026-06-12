@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Capstone_Project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/test/resources/sample.pdf</name>
+			<type>1</type>
+			<locationURI>PARENT-3-ECLIPSE_HOME/OneDrive/Documents/sample.pdf</locationURI>
+		</link>
+		<link>
+			<name>src/test/resources/sample1.pdf</name>
+			<type>1</type>
+			<locationURI>PARENT-3-ECLIPSE_HOME/OneDrive/Documents/sample1.pdf</locationURI>
+		</link>
+		<link>
+			<name>src/test/resources/sample2.pdf</name>
+			<type>1</type>
+			<locationURI>PARENT-3-ECLIPSE_HOME/OneDrive/Documents/sample2.pdf</locationURI>
+		</link>
+		<link>
+			<name>src/test/resources/test/TestData1.xlsx</name>
+			<type>1</type>
+			<location>D:/from c drive/Downloads/TestData1.xlsx</location>
+		</link>
+	</linkedResources>
+</projectDescription>

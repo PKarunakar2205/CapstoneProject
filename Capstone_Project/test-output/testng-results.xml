@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-12T23:47:42 IST" name="Capstone Suite" finished-at="2026-06-12T23:50:24 IST" duration-ms="161931">
+    <groups>
+    </groups>
+    <test started-at="2026-06-12T23:47:42 IST" name="Automation Practice Tests" finished-at="2026-06-12T23:50:24 IST" duration-ms="161931">
+      <class name="testcases.AutomationPracticeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:47:42 IST" name="setup" finished-at="2026-06-12T23:47:51 IST" duration-ms="8983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPageTitle()[pri:1, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:47:51 IST" name="verifyPageTitle" finished-at="2026-06-12T23:47:51 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:47:51 IST" name="tearDown" finished-at="2026-06-12T23:47:51 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:47:51 IST" name="setup" finished-at="2026-06-12T23:47:56 IST" duration-ms="4713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNameField()[pri:2, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:47:56 IST" name="verifyNameField" finished-at="2026-06-12T23:47:56 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNameField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:47:56 IST" name="tearDown" finished-at="2026-06-12T23:47:57 IST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:47:57 IST" name="setup" finished-at="2026-06-12T23:48:02 IST" duration-ms="4494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmailField()[pri:3, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:02 IST" name="verifyEmailField" finished-at="2026-06-12T23:48:02 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:02 IST" name="tearDown" finished-at="2026-06-12T23:48:02 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:02 IST" name="setup" finished-at="2026-06-12T23:48:07 IST" duration-ms="4333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPhoneField()[pri:4, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:07 IST" name="verifyPhoneField" finished-at="2026-06-12T23:48:07 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPhoneField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:07 IST" name="tearDown" finished-at="2026-06-12T23:48:07 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:07 IST" name="setup" finished-at="2026-06-12T23:48:11 IST" duration-ms="4281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAddressField()[pri:5, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:11 IST" name="verifyAddressField" finished-at="2026-06-12T23:48:12 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddressField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:12 IST" name="tearDown" finished-at="2026-06-12T23:48:12 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:12 IST" name="setup" finished-at="2026-06-12T23:48:17 IST" duration-ms="5244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMaleRadioButton()[pri:6, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:17 IST" name="verifyMaleRadioButton" finished-at="2026-06-12T23:48:17 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMaleRadioButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:17 IST" name="tearDown" finished-at="2026-06-12T23:48:17 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:17 IST" name="setup" finished-at="2026-06-12T23:48:28 IST" duration-ms="10571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCheckboxes()[pri:7, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:28 IST" name="verifyCheckboxes" finished-at="2026-06-12T23:48:28 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:28 IST" name="tearDown" finished-at="2026-06-12T23:48:29 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:29 IST" name="setup" finished-at="2026-06-12T23:48:33 IST" duration-ms="4389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCountryDropdown()[pri:8, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:33 IST" name="verifyCountryDropdown" finished-at="2026-06-12T23:48:33 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCountryDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:33 IST" name="tearDown" finished-at="2026-06-12T23:48:34 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:34 IST" name="setup" finished-at="2026-06-12T23:48:38 IST" duration-ms="4463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyColorDropdown()[pri:9, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:38 IST" name="verifyColorDropdown" finished-at="2026-06-12T23:48:38 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyColorDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:38 IST" name="tearDown" finished-at="2026-06-12T23:48:38 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:38 IST" name="setup" finished-at="2026-06-12T23:48:40 IST" duration-ms="1566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAnimalDropdown()[pri:10, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:40 IST" name="verifyAnimalDropdown" finished-at="2026-06-12T23:48:43 IST" duration-ms="2870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAnimalDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:43 IST" name="tearDown" finished-at="2026-06-12T23:48:43 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:43 IST" name="setup" finished-at="2026-06-12T23:48:47 IST" duration-ms="4292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDatePicker()[pri:11, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:47 IST" name="verifyDatePicker" finished-at="2026-06-12T23:48:48 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDatePicker -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:48 IST" name="tearDown" finished-at="2026-06-12T23:48:48 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:48 IST" name="setup" finished-at="2026-06-12T23:48:52 IST" duration-ms="4403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySingleFileUpload()[pri:12, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:52 IST" name="verifySingleFileUpload" finished-at="2026-06-12T23:48:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingleFileUpload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:52 IST" name="tearDown" finished-at="2026-06-12T23:48:53 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:53 IST" name="setup" finished-at="2026-06-12T23:48:57 IST" duration-ms="4538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMultipleFileUpload()[pri:13, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:57 IST" name="verifyMultipleFileUpload" finished-at="2026-06-12T23:48:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMultipleFileUpload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:57 IST" name="tearDown" finished-at="2026-06-12T23:48:58 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:48:58 IST" name="setup" finished-at="2026-06-12T23:49:02 IST" duration-ms="4473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchFunctionality()[pri:14, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:02 IST" name="verifySearchFunctionality" finished-at="2026-06-12T23:49:02 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:02 IST" name="tearDown" finished-at="2026-06-12T23:49:03 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:03 IST" name="setup" finished-at="2026-06-12T23:49:07 IST" duration-ms="4346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySimpleAlert()[pri:15, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:07 IST" name="verifySimpleAlert" finished-at="2026-06-12T23:49:07 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySimpleAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:07 IST" name="tearDown" finished-at="2026-06-12T23:49:07 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:07 IST" name="setup" finished-at="2026-06-12T23:49:13 IST" duration-ms="5638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyConfirmAlert()[pri:16, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:13 IST" name="verifyConfirmAlert" finished-at="2026-06-12T23:49:13 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConfirmAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:13 IST" name="tearDown" finished-at="2026-06-12T23:49:13 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:13 IST" name="setup" finished-at="2026-06-12T23:49:18 IST" duration-ms="4375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPromptAlert()[pri:17, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:18 IST" name="verifyPromptAlert" finished-at="2026-06-12T23:49:18 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPromptAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:18 IST" name="tearDown" finished-at="2026-06-12T23:49:18 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:18 IST" name="setup" finished-at="2026-06-12T23:49:22 IST" duration-ms="4319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyWindowHandling()[pri:18, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:22 IST" name="verifyWindowHandling" finished-at="2026-06-12T23:49:22 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWindowHandling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:22 IST" name="tearDown" finished-at="2026-06-12T23:49:23 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:23 IST" name="setup" finished-at="2026-06-12T23:49:28 IST" duration-ms="5720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPopupWindowHandling()[pri:19, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:28 IST" name="verifyPopupWindowHandling" finished-at="2026-06-12T23:49:29 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPopupWindowHandling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:29 IST" name="tearDown" finished-at="2026-06-12T23:49:29 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:29 IST" name="setup" finished-at="2026-06-12T23:49:35 IST" duration-ms="5418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMouseHover()[pri:20, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:35 IST" name="verifyMouseHover" finished-at="2026-06-12T23:49:35 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMouseHover -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:35 IST" name="tearDown" finished-at="2026-06-12T23:49:35 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:35 IST" name="setup" finished-at="2026-06-12T23:49:39 IST" duration-ms="4296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDoubleClick()[pri:21, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:39 IST" name="verifyDoubleClick" finished-at="2026-06-12T23:49:39 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDoubleClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:39 IST" name="tearDown" finished-at="2026-06-12T23:49:40 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:40 IST" name="setup" finished-at="2026-06-12T23:49:44 IST" duration-ms="4207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDragAndDrop()[pri:22, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:44 IST" name="verifyDragAndDrop" finished-at="2026-06-12T23:49:44 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDragAndDrop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:44 IST" name="tearDown" finished-at="2026-06-12T23:49:44 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:44 IST" name="setup" finished-at="2026-06-12T23:49:50 IST" duration-ms="5236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySlider()[pri:23, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:50 IST" name="verifySlider" finished-at="2026-06-12T23:49:51 IST" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:51 IST" name="tearDown" finished-at="2026-06-12T23:49:51 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:51 IST" name="setup" finished-at="2026-06-12T23:49:55 IST" duration-ms="4310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTableRows()[pri:24, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:55 IST" name="verifyTableRows" finished-at="2026-06-12T23:49:55 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableRows -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:55 IST" name="tearDown" finished-at="2026-06-12T23:49:55 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:55 IST" name="setup" finished-at="2026-06-12T23:49:59 IST" duration-ms="4235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBrokenLinks()[pri:25, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:49:59 IST" name="verifyBrokenLinks" finished-at="2026-06-12T23:50:24 IST" duration-ms="24167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrokenLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomationPracticeTest@b3ca52e]" started-at="2026-06-12T23:50:24 IST" name="tearDown" finished-at="2026-06-12T23:50:24 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AutomationPracticeTest -->
+    </test> <!-- Automation Practice Tests -->
+  </suite> <!-- Capstone Suite -->
+</testng-results>
