@@ -7,19 +7,24 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/PKarunakar2205/CapstoneProject.git'
+                    url: 'https://github.com/PKarunakar2205/CapstoneProject.git'
             }
         }
 
         stage('Build') {
             steps {
-                bat 'mvn clean test'
+                dir('Capstone_Project') {
+                    bat 'mvn clean test'
+                }
             }
         }
-
     }
 
     post {
+
+        always {
+            archiveArtifacts artifacts: 'Capstone_Project/test-output/**/*', allowEmptyArchive: true
+        }
 
         success {
             echo 'Build Successful'
