@@ -2,11 +2,6 @@ pipeline {
 
     agent any
 
-    tools {
-        maven 'Maven'
-        jdk 'JDK17'
-    }
-
     stages {
 
         stage('Checkout') {
@@ -16,51 +11,22 @@ pipeline {
             }
         }
 
-        stage('Clean') {
+        stage('Build') {
             steps {
-                bat 'mvn clean'
+                bat 'mvn clean test'
             }
         }
 
-        stage('Build & Execute Tests') {
-            steps {
-                bat 'mvn test'
-            }
-        }
-
-        stage('Publish Reports') {
-            steps {
-                publishHTML([
-                    allowMissing: true,
-                    alwaysLinkToLastBuild: true,
-                    keepAll: true,
-                    reportDir: 'reports',
-                    reportFiles: 'ExtentReport.html',
-                    reportName: 'Extent Report'
-                ])
-            }
-        }
-
-        stage('Archive Results') {
-            steps {
-                archiveArtifacts artifacts: 'reports/**/*.*', fingerprint: true
-                archiveArtifacts artifacts: 'screenshots/**/*.*', fingerprint: true
-            }
-        }
     }
 
     post {
 
         success {
-            echo 'Automation Execution Successful'
+            echo 'Build Successful'
         }
 
         failure {
-            echo 'Automation Execution Failed'
-        }
-
-        always {
-            echo 'Execution Completed'
+            echo 'Build Failed'
         }
     }
 }
