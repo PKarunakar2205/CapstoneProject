@@ -1,0 +1,66 @@
+pipeline {
+
+    agent any
+
+    tools {
+        maven 'Maven'
+        jdk 'JDK17'
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                url: 'https://github.com/PKarunakar2205/CapstoneProject.git'
+            }
+        }
+
+        stage('Clean') {
+            steps {
+                bat 'mvn clean'
+            }
+        }
+
+        stage('Build & Execute Tests') {
+            steps {
+                bat 'mvn test'
+            }
+        }
+
+        stage('Publish Reports') {
+            steps {
+                publishHTML([
+                    allowMissing: true,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: 'reports',
+                    reportFiles: 'ExtentReport.html',
+                    reportName: 'Extent Report'
+                ])
+            }
+        }
+
+        stage('Archive Results') {
+            steps {
+                archiveArtifacts artifacts: 'reports/**/*.*', fingerprint: true
+                archiveArtifacts artifacts: 'screenshots/**/*.*', fingerprint: true
+            }
+        }
+    }
+
+    post {
+
+        success {
+            echo 'Automation Execution Successful'
+        }
+
+        failure {
+            echo 'Automation Execution Failed'
+        }
+
+        always {
+            echo 'Execution Completed'
+        }
+    }
+}
