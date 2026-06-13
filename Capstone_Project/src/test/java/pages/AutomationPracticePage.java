@@ -28,9 +28,7 @@ public class AutomationPracticePage {
         this.js = (JavascriptExecutor) driver;
     }
 
-    // ===========================
-    // GUI Elements
-    // ===========================
+
 
     By txtName = By.id("name");
     By txtEmail = By.id("email");
@@ -56,82 +54,41 @@ public class AutomationPracticePage {
 
     By datePicker = By.id("datepicker");
 
-    // ===========================
-    // File Upload
-    // ===========================
-
     By singleFileUpload = By.id("singleFileInput");
     By multipleFileUpload = By.id("multipleFilesInput");
 
-    // ===========================
-    // Search
-    // ===========================
 
-    By searchBox =
-            By.id("Wikipedia1_wikipedia-search-input");
+    By searchBox = By.id("Wikipedia1_wikipedia-search-input");
 
-    By searchBtn =
-            By.xpath("//input[@type='submit']");
-
-    // ===========================
-    // Alerts
-    // ===========================
+    By searchBtn = By.xpath("//input[@type='submit']");
 
     By alertBtn = By.id("alertBtn");
     By confirmBtn = By.id("confirmBtn");
     By promptBtn = By.id("promptBtn");
 
-    // ===========================
-    // Windows
-    // ===========================
 
-    By newTabBtn =
-            By.xpath("//*[@id='HTML4']/div[1]/button");
-
+    By newTabBtn = By.xpath("//*[@id='HTML4']/div[1]/button");
+ 
     By popupBtn = By.id("PopUp");
 
-    // ===========================
-    // Mouse Actions
-    // ===========================
 
-    By hoverBtn =
-            By.xpath("//*[@id='HTML3']/div[1]/div/button");
+    By hoverBtn = By.xpath("//*[@id='HTML3']/div[1]/div/button");
 
-    By copyBtn =
-            By.xpath("//button[contains(text(),'Copy Text')]");
+    By copyBtn = By.xpath("//button[contains(text(),'Copy Text')]");
 
-    // ===========================
-    // Drag and Drop
-    // ===========================
 
     By source = By.id("draggable");
     By destination = By.id("droppable");
 
-    // ===========================
-    // Slider
-    // ===========================
+    By sliderLeft = By.xpath("//*[@id='slider-range']/span[1]");
 
-    By sliderLeft =
-            By.xpath("//*[@id='slider-range']/span[1]");
+    By sliderRight = By.xpath("//*[@id='slider-range']/span[2]");
 
-    By sliderRight =
-            By.xpath("//*[@id='slider-range']/span[2]");
-
-    // ===========================
-    // Table
-    // ===========================
-
+    
     By productTable = By.id("productTable");
-
-    // ===========================
-    // Links
-    // ===========================
 
     By allLinks = By.tagName("a");
 
-    // ====================================
-    // Textbox Methods
-    // ====================================
 
     public void enterName(String name) {
         driver.findElement(txtName).clear();
@@ -153,10 +110,6 @@ public class AutomationPracticePage {
         driver.findElement(txtAddress).sendKeys(address);
     }
 
-    // ====================================
-    // Radio Button
-    // ====================================
-
     public void selectMale() {
         driver.findElement(maleRadio).click();
     }
@@ -165,9 +118,6 @@ public class AutomationPracticePage {
         driver.findElement(femaleRadio).click();
     }
 
-    // ====================================
-    // Checkboxes
-    // ====================================
 
     public void selectAllDays() {
 
@@ -180,42 +130,33 @@ public class AutomationPracticePage {
         driver.findElement(saturday).click();
     }
 
-    // ====================================
-    // Dropdowns
-    // ====================================
+
 
     public void selectCountry(String countryName) {
 
-        Select select =
-                new Select(driver.findElement(country));
+        Select select = new Select(driver.findElement(country));
 
         select.selectByVisibleText(countryName);
     }
 
     public void selectColor(String colorName) {
 
-        Select select =
-                new Select(driver.findElement(colors));
+        Select select = new Select(driver.findElement(colors));
 
         select.selectByVisibleText(colorName);
     }
 
     public void selectAnimal(String animalName) {
 
-        Select select =
-                new Select(driver.findElement(animals));
+        Select select = new Select(driver.findElement(animals));
 
         select.selectByVisibleText(animalName);
     }
 
-    // ====================================
-    // Date Picker
-    // ====================================
 
     public void selectDate(String date) {
 
-        WebElement element =
-                driver.findElement(datePicker);
+        WebElement element =  driver.findElement(datePicker);
 
         element.clear();
 
@@ -224,51 +165,35 @@ public class AutomationPracticePage {
         element.sendKeys(Keys.ENTER);
     }
 
-    // ====================================
-    // File Upload
-    // ====================================
-
     public void uploadSingleFile(String path) {
 
         js.executeScript("window.scrollBy(0,1500)");
 
-        driver.findElement(singleFileUpload)
-                .sendKeys(path);
+        driver.findElement(singleFileUpload).sendKeys(path);
     }
 
-    public void uploadMultipleFiles(
-            String file1,
-            String file2) {
+    public void uploadMultipleFiles(String file1, String file2) {
 
         js.executeScript("window.scrollBy(0,1500)");
 
-        driver.findElement(multipleFileUpload)
-                .sendKeys(file1 + "\n" + file2);
+        driver.findElement(multipleFileUpload).sendKeys(file1 + "\n" + file2);
     }
 
-    // ====================================
-    // Search
-    // ====================================
+
 
     public void searchWikipedia(String text) {
 
-        driver.findElement(searchBox)
-                .sendKeys(text);
+        driver.findElement(searchBox).sendKeys(text);
 
-        driver.findElement(searchBtn)
-                .click();
+        driver.findElement(searchBtn).click();
     }
 
-    // ====================================
-    // Alerts
-    // ====================================
-
+ 
     public void handleSimpleAlert() {
 
         driver.findElement(alertBtn).click();
 
-        Alert alert =
-                driver.switchTo().alert();
+        Alert alert = driver.switchTo().alert();
 
         alert.accept();
     }
@@ -277,8 +202,7 @@ public class AutomationPracticePage {
 
         driver.findElement(confirmBtn).click();
 
-        Alert alert =
-                driver.switchTo().alert();
+        Alert alert = driver.switchTo().alert();
 
         alert.dismiss();
     }
@@ -287,17 +211,14 @@ public class AutomationPracticePage {
 
         driver.findElement(promptBtn).click();
 
-        Alert alert =
-                driver.switchTo().alert();
+        Alert alert = driver.switchTo().alert();
 
         alert.sendKeys(name);
 
         alert.accept();
     }
 
-    // ====================================
-    // Window Handling
-    // ====================================
+ 
 
     public void handleNewTab() {
 
@@ -329,8 +250,7 @@ public class AutomationPracticePage {
 
         driver.findElement(popupBtn).click();
 
-        Set<String> windows =
-                driver.getWindowHandles();
+        Set<String> windows = driver.getWindowHandles();
 
         for (String win : windows) {
 
@@ -345,88 +265,51 @@ public class AutomationPracticePage {
         driver.switchTo().window(parent);
     }
 
-    // ====================================
-    // Mouse Hover
-    // ====================================
 
     public void mouseHover() {
 
-        Actions act =
-                new Actions(driver);
+        Actions act = new Actions(driver);
 
-        act.moveToElement(
-                driver.findElement(hoverBtn))
-                .perform();
+        act.moveToElement( driver.findElement(hoverBtn)).perform();
     }
 
-    // ====================================
-    // Double Click
-    // ====================================
-
+    
     public void doubleClick() {
 
-        Actions act =
-                new Actions(driver);
+        Actions act = new Actions(driver);
 
-        act.doubleClick(
-                driver.findElement(copyBtn))
-                .perform();
+        act.doubleClick( driver.findElement(copyBtn)).perform();
     }
 
-    // ====================================
-    // Drag Drop
-    // ====================================
+  
 
     public void dragAndDrop() {
 
-        Actions act =
-                new Actions(driver);
+        Actions act = new Actions(driver);
 
-        act.dragAndDrop(
-                driver.findElement(source),
-                driver.findElement(destination))
-                .perform();
+        act.dragAndDrop( driver.findElement(source), driver.findElement(destination)).perform();
     }
 
-    // ====================================
-    // Slider
-    // ====================================
-
+    
     public void moveSlider() {
 
         Actions act =
                 new Actions(driver);
 
-        act.dragAndDropBy(
-                driver.findElement(sliderLeft),
-                50,
-                0)
-                .perform();
+        act.dragAndDropBy( driver.findElement(sliderLeft), 50,0).perform();
 
-        act.dragAndDropBy(
-                driver.findElement(sliderRight),
-                -50,
-                0)
-                .perform();
+        act.dragAndDropBy( driver.findElement(sliderRight),  -50, 0).perform();
     }
 
-    // ====================================
-    // Table
-    // ====================================
 
     public int getTableRows() {
 
-        List<WebElement> rows =
-                driver.findElements(
-                        By.xpath("//*[@id='productTable']/tbody/tr"));
+        List<WebElement> rows = driver.findElements( By.xpath("//*[@id='productTable']/tbody/tr"));
 
         return rows.size();
     }
 
-    // ====================================
-    // Broken Links
-    // ====================================
-
+    
     public void checkBrokenLinks() throws Exception {
 
         List<WebElement> links =
@@ -434,24 +317,20 @@ public class AutomationPracticePage {
 
         for (WebElement link : links) {
 
-            String url =
-                    link.getAttribute("href");
+            String url = link.getAttribute("href");
 
             if (url == null || url.isEmpty()) {
                 continue;
             }
 
-            HttpURLConnection connection =
-                    (HttpURLConnection)
+            HttpURLConnection connection = (HttpURLConnection)
                             new URL(url).openConnection();
 
             connection.connect();
 
-            int code =
-                    connection.getResponseCode();
+            int code = connection.getResponseCode();
 
-            System.out.println(
-                    url + " -> " + code);
+            System.out.println(url + " -> " + code);
         }
     }
 }
