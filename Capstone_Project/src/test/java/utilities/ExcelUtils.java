@@ -8,28 +8,17 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelUtils {
 
-    public static String getData(String sheetName,
-                                 int rowNum,
-                                 int colNum)
+    public static String getData(String sheetName, int rowNum, int colNum)
                                  throws Exception {
 
-    	String path =
-    			System.getProperty("user.dir")
-    			+ "\\src\\test\\resources\\test\\TestData1.xlsx";
-        FileInputStream fis =
-                new FileInputStream(path);
+    	String path = System.getProperty("user.dir") + "\\src\\test\\resources\\test\\TestData1.xlsx";
+        FileInputStream fis =  new FileInputStream(path);
 
-        Workbook wb =
-                WorkbookFactory.create(fis);
+        Workbook wb = WorkbookFactory.create(fis);
 
-        DataFormatter formatter =
-                new DataFormatter();
+        DataFormatter formatter = new DataFormatter();
 
-        String value =
-                formatter.formatCellValue(
-                        wb.getSheet(sheetName)
-                          .getRow(rowNum)
-                          .getCell(colNum));
+        String value = formatter.formatCellValue(wb.getSheet(sheetName).getRow(rowNum).getCell(colNum));
 
         wb.close();
         fis.close();
